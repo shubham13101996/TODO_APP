@@ -11,7 +11,7 @@ const TaskCard=(props)=>{
           method: "DELETE",
         });
         e.target.parentElement.parentElement.remove()
-        alert('task deleted')
+        alert('task deleted Successfully')
       };
 
 
@@ -33,7 +33,7 @@ const TaskCard=(props)=>{
             })
             .then((response) => response.json())
             .then((json) => {console.log(json)
-                alert(`updated to task: ${json.title} `)});
+                alert(`Your Task updated Successfully: ${json.title} `)});
             setEdit(false)
             setChangeTask('')
         } else{

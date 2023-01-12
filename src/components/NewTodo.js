@@ -19,7 +19,7 @@ const NewTodo = () => {
             })
             .then((response) => response.json())
             .then((json) => {console.log(json)
-            alert(`Your Task Added : -> ${json.title} `)});
+            alert(`Your Task Added Successfully : -> ${json.title} `)});
             setNewTask('');
            
         } else{

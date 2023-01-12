@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(8, 8, 8);
 }
 
 code {
@@ -12,6 +13,7 @@ code {
     monospace;
 }
 
+/* css for NewTodo  */
 .newTask{
   background-color: indigo;
   width: 100%;
@@ -27,7 +29,6 @@ code {
  
  .newInput{
    width: 110%;
-   /* margin-right: 5%; */
    margin-left: 5%;
    margin-top: 10px;
    margin-bottom: 10px;
@@ -39,10 +40,101 @@ code {
    height: 25px;
    margin-top: 15px;
    margin-bottom: 15px;
-   /* margin-right: 8px; */
    background-color: saddlebrown;
    color: aliceblue;
    border-width: 0; 
    margin-left: 10px;
    width: 90px;
  }
+
+ /* css for TaskCard  */
+ .card{
+  background-color: rgb(224, 125, 11);
+  margin-left: 15%;
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.completed{
+  background-color: green;
+  width: 10px;
+}
+
+.pending{
+  background-color: #8B0000;
+  width: 10px;
+}
+
+.task{
+  width: 70%;
+  padding-left: 2px;
+  margin-top: 15px; 
+  margin-left: 15px; 
+  margin-bottom: 15px;
+}
+
+.action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  margin-right: 5% ;
+  width: 20%;
+  margin-left: 10%;
+  padding-left: 10px;
+}
+
+.buttonImage{
+  height: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 8px;
+  background-color: saddlebrown;
+  color: aliceblue;
+  border-width: 0;
+}
+
+.taskInput{
+  width: 70%;
+  padding-left: 2px;
+  margin-top: 15px; 
+  margin-left: 15px; 
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.taskText{
+  width: 99.5%;
+  padding-left: 2px;
+  margin-left: -2px; 
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+}
+
+.buttonInput{
+  width: 161px;
+  height: 25px;
+  margin-right: 8px;
+  background-color: rgb(202, 91, 11);
+  color: aliceblue;
+  border-width: 0;
+}
+
+.buttonInput:hover{
+  background-color: rgb(114, 41, 8); 
+}
+
+.buttonImage:hover{
+  background-color: rgb(19, 18, 18); 
+  color: orange;
+}
+
+.heading{
+  margin-left:15% ;
+  color: orange;
+}
