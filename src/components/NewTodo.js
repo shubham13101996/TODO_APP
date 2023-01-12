@@ -38,7 +38,7 @@ const NewTodo = () => {
        <div className="newTask">
             <div className="newCard">                
                 <input type="text" className="newInput" placeholder="Add New Task" value={newTask} onChange={handleNewTaskChange}/>
-                <button className="buttonInput" onClick={AddNewTask}>Add  </button>
+                <button className="buttonInput" onClick={AddNewTask}> Add </button>
             </div>
             
         </div>
