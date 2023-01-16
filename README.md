@@ -4,8 +4,8 @@ Add, Update and Delete Tasks on this Task App created using ReactJs.
 ## Features
 Fetch and show todo items from the api.
 Add a todo item, make a POST call to the below url and save the item in react state. (This will be a dummy request, you won’t be able to add items to the server. But the request is valid.
-Update the item, make a PUT call to the above url. (Again this is a dummy call).
-Delete an item, make a DELETE call to the above url. (Again this is a dummy call).
+Update the item, make a PUT call to the above url. (this is a dummy call).
+Delete an item, make a DELETE call to the above url. (this is a dummy call).
 
 API used: https://jsonplaceholder.typicode.com/todos 
 Video Link: https://youtu.be/7RngOTp13O0
