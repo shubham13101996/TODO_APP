@@ -1,0 +1,23 @@
+[33mcommit 39415d4bb19183a0fc338857ec7641d74fd5e7e9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: shubham pathak <121822895+shubham13101996@users.noreply.github.com>
+Date:   Thu Jan 12 20:01:03 2023 +0530
+
+    css for taskcard
+
+[33mcommit faa0a5d86ac335473951aa4c595b23e00f71b465[m
+Author: shubham pathak <121822895+shubham13101996@users.noreply.github.com>
+Date:   Thu Jan 12 19:12:59 2023 +0530
+
+    show all task with update delete btn
+
+[33mcommit 0ef0b7e617f230775a677272cd0f5023c6ad9449[m
+Author: shubham pathak <121822895+shubham13101996@users.noreply.github.com>
+Date:   Thu Jan 12 16:56:51 2023 +0530
+
+    handle input taskfield
+
+[33mcommit d7a997b17e0a6f669bfaaeec06ac7397ee6d4221[m
+Author: shubham pathak <121822895+shubham13101996@users.noreply.github.com>
+Date:   Thu Jan 12 16:32:16 2023 +0530
+
+    search field add

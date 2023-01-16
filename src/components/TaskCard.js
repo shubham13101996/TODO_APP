@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 const TaskCard=(props)=>{
 
     const[edit, setEdit] = useState(false)

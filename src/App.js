@@ -7,7 +7,7 @@ const App = () => {
   const [items, setitems] = useState([]);
   const [DataisLoaded, setDataisLoaded] = useState(false);
   
-  // fetches the taks list from API as soon as the window is loaded and stores the response in an array
+  // fetches the task list from API as soon as the window is loaded and stores the response in an array
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/todos')
     .then(response => response.json())
@@ -16,7 +16,7 @@ const App = () => {
     setDataisLoaded(true),
     console.log(items)
   )
-  },[items]);
+  },[]);
 
   return (
     <>
